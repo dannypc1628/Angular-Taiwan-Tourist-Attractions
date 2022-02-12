@@ -1,2 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+* {
+  box-sizing: border-box;
+}
+
+
+.m-right{
+margin-right: 15px;
+}
+.board{
+  margin-top: 30px;
+  background-image: url("./assets/images/julian-timmerman-Fn27DlI8bZ8-unsplash\ 1.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
