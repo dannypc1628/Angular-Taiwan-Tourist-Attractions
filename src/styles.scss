@@ -17,6 +17,12 @@ margin-right: 15px;
   background-position: center;
 }
 
+.text-overflow{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  white-space : nowrap;
+}
+
 .hot-city-height-1{
   height: 220px;
 }
