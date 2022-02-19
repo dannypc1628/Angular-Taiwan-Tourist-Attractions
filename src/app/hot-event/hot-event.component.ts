@@ -7,10 +7,8 @@ DataService
   styleUrls: ['./hot-event.component.scss']
 })
 export class HotEventComponent implements OnInit {
-
   datas: any;
   constructor(private dataService: DataService) { }
-
   ngOnInit(): void {
     this.dataService.getHotEvents().subscribe(result => this.datas = result);
   }
